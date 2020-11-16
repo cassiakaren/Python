@@ -1,0 +1,39 @@
+{
+	"name": "theme-launchbase",
+	"version": "0.0.3",
+	"displayName": "Launchbase Theme",
+	"homepage": "https://github.com/maykbrito/theme-launchbase.git",
+	"description": "Launchbase theme for vscode",
+	"publisher": "maykbrito",
+	"author": "Mayk Brito",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/maykbrito/theme-launchbase.git"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#262327",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Launchbase Theme",
+				"uiTheme": "vs-dark",
+				"path": "./theme/launchbase.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "9417df6e-efd6-43dc-9bac-83d024e28c19",
+		"publisherId": "ffc1c11e-d76b-4988-9075-e56f4c639a93",
+		"publisherDisplayName": "Mayk Brito"
+	}
+}
